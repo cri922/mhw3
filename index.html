@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Lord of the Rings</title>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="provided-style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mhw3.css">
+    <script src="constants.js" defer="true"></script>
+    <script src="script.js" defer="true"></script>
+    <script src="mhw3.js" defer="true"></script>
+  </head>
+
+  <body>
+    <article>
+      <header id="top">
+          <h1>Web Programming</h1>
+          <div>
+            <span>M</span>
+            <span>H</span>
+            <span>W</span>
+            <span>2</span>
+          </div>
+      </header>
+      <h1>The Lord of the Rings</h1>
+
+      <section>
+        <p> <strong>The Lord of the Rings</strong> is an epic high-fantasy novel by English author and scholar J. R. R. Tolkien. Set in Middle-earth, intended to be Earth at some distant time in the past, the story began as a sequel to Tolkien's 1937 children's book <span data-book="0">The Hobbit</span>, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold. <br> The title refers to the story's main antagonist, the Dark Lord Sauron, who in an earlier age created the One Ring to rule the other Rings of Power given to Men, Dwarves, and Elves, in his campaign to conquer all of Middle-earth. From homely beginnings in the Shire, a hobbit land reminiscent of the English countryside, the story ranges across Middle-earth, following the quest to destroy the One Ring mainly through the eyes of the hobbits Frodo, Sam, Merry and Pippin. <br>   Although often called a trilogy, the work was intended by Tolkien to be one volume of a two-volume set along with The Silmarillion. For economic reasons, The Lord of the Rings was published over the course of a year from 29 July 1954 to 20 October 1955, in three volumes titled <span data-book="1">The Fellowship of the Ring</span>, <span data-book="2">The Two Towers</span>, and <span data-book="3">The Return of the King</span>.</p>
+      </section>
+      <section id="modal-view" class="hidden">
+        <img>
+      </section>
+
+      <section>
+        <h2>Music of The Lord of the Rings film series</h2>
+        <p>The music of The Lord of the Rings film series was composed, orchestrated, conducted and produced by Howard Shore. The scores are widely considered to represent one of the greatest achievements in the history of film music in terms of length of the score, the size of the staged forces, the unusual instrumentation, the featured soloists, the multitude of musical styles and the number of recurring musical themes used. <br>
+        Shore wrote many hours of music for The Lord of the Rings, effectively scoring the entire film length. Over 13 hours of the music (including various alternate takes) have been released across various formats. Shore conceived the score as operatic and antiquated-sounding. He made use of an immense ensemble including a large symphony orchestra (principally, the London Philharmonic Orchestra), multiple instrumental "bands", various choirs, and vocal and instrumental soloists, requiring an ensemble ranging from 230 to 400 musicians.</p>
+        <form id="form-music">
+          Insert the name of a film to retrive a compilation album from Spotify: <br>
+          <input type="text" id="film">
+          <input type="submit" id="submit" value="Search">
+        </form>
+        <div id="albums-wrapper" class="hidden">
+          <h1 id="album-title"></h1>
+          <a id="album-link">
+            <img id="album-image">
+          </a>
+          <div id="tracks-wrapper" class="tracks"></div>
+        </div>
+      </section>
+
+      <section id="music-library">
+      </section>
+
+      <section class="question-name" data-question-id="one">
+        <h1>Scegli un personaggio principale:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="one">
+          <img src="images/1_1.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="one">
+          <img src="./images/1_2.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="one">
+          <img src="./images/1_3.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="one">
+          <img src="./images/1_4.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="one">
+          <img src="./images/1_5.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="one">
+          <img src="./images/1_6.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="one">
+          <img src="./images/1_7.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="one">
+          <img src="./images/1_8.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="one">
+          <img src="./images/1_9.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Scegli una creatura:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="two">
+          <img src="images/2_1.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="two">
+          <img src="./images/2_2.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="two">
+          <img src="./images/2_3.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="two">
+          <img src="./images/2_4.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="two">
+          <img src="./images/2_5.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="two">
+          <img src="./images/2_6.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="two">
+          <img src="./images/2_7.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="two">
+          <img src="./images/2_8.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="two">
+          <img src="./images/2_9.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Scegli un personaggio secondario:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="three">
+          <img src="images/3_1.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="three">
+          <img src="./images/3_2.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="three">
+          <img src="./images/3_3.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="three">
+          <img src="./images/3_4.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="three">
+          <img src="./images/3_5.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="three">
+          <img src="./images/3_6.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="three">
+          <img src="./images/3_7.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="three">
+          <img src="./images/3_8.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="three">
+          <img src="./images/3_9.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <div class="result hidden">
+        <h1></h1>
+        <p></p>
+        <div>
+          <a href="#top">Ricomincia il quiz!</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

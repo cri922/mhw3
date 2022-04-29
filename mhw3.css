@@ -1,0 +1,71 @@
+section p span{
+  color: blue;
+  cursor: pointer;
+}
+
+section p span:hover{
+  background-color: yellow;
+}
+
+#modal-view{
+  height: 100vh;
+  width: 100vw;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.9);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-view.hidden{
+  display: none;
+}
+
+#modal-view img{
+  max-width: 75%;
+}
+
+.no-scroll{
+  overflow: hidden;
+}
+
+#albums-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 5px solid tomato;
+  background-color: palegoldenrod;
+}
+
+#album-title{
+  text-align: center;
+  color: sienna;
+}
+
+.tracks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tracks a{
+  text-align: center;
+  margin-top: 20px;
+  color: sienna;
+}
+
+#albums-wrapper.hidden{
+  display: none;
+}
+
+#form-music{
+  margin-bottom: 20px;
+}
